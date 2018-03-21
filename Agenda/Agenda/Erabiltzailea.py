@@ -11,7 +11,7 @@ print('NAN:', erabil1.b1,',Izena:',erabil1.b2,',Helbidea:',erabil1.b3,',Telefono
 
 class Eventos:
     
-    def __init__(self, izena, kodea, inportantzia, lekua, hasiera_data, bukaera_data:        
+    def __init__(self, izena , kodea, inportantzia, lekua, hasiera_data, bukaera_data):        
         self.i1=izena
         self.i2=kodea
         self.i3=inportantzia
@@ -19,5 +19,5 @@ class Eventos:
         self.i5=hasiera_data
         self.i6=bukaera_data     
     
-eventos1 = Eventos ('Lucia', 9876, true,  1)
-print('NAN:', erabil1.i1,',Izena:',erabil1.i2,',Helbidea:',erabil1.i3,',Telefonoa:',erabil1.i4)
+eventos1 = Eventos ('Lucia', 9876, 1 , 'berriz', '1', '2')
+print('Izena:', eventos1.i1,',Izena:',eventos1.i2,',Helbidea:',eventos1.i3,',Telefonoa:',eventos1.i4)
